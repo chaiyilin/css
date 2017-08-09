@@ -44,3 +44,15 @@ body {
     width:5em;
 }
 
+.level5 {
+    /*position: relative;*/
+    border-style: solid;
+    border-color: blue;
+    /* background-color: blue; */
+    /*display:inline-block;*/
+    /*overflow: auto;*/
+    float: left;
+    padding: 1em;
+    height: 5em;
+    width:5em;
+}
