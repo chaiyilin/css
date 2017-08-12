@@ -1,0 +1,40 @@
+.container {
+    /*position: relative;*/
+    border-style: solid;
+    border-color: black;
+    background-color: beige;
+    width: 10em;
+    margin: auto;
+    padding: 1em;
+    min-width: 5rem;
+}
+
+.element {
+    background-color: aquamarine;
+    min-height: 5rem;
+    width: 10rem;
+    border-style: solid;
+    border-color: black;
+    float: left;
+}
+
+.first {
+    float:left;
+    clear: both;
+    /*position: relative;*/
+    margin-left: 5rem;
+}
+
+.second {
+    float:left;
+    clear: both;
+    /*position: relative;*/
+    margin-left: 6rem;
+}
+
+.third {
+    float:left;
+    clear: both;
+    /*position: relative;*/
+    margin-left: 7rem;
+}

@@ -1,0 +1,25 @@
+.cards{
+	display: flex;
+	flex-direction: column
+}
+
+.card1{
+	float:left;
+height: 100px;
+width: 100px;
+padding: 10px;
+background-color: green;
+border:2px solid black;
+margin: 50px;
+}
+
+.card2{
+	
+	float:left;
+height: 100px;
+width: 100px;
+padding: 10px;
+background-color: green;
+border:2px solid black;
+margin: 50px;
+}
