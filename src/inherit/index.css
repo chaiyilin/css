@@ -1,0 +1,58 @@
+body {
+  margin: 20px;
+  font-family: 'Lato';
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.level1 {
+    /*position: relative;*/
+    border-style: solid;
+    border-color: black;
+    background-color: beige;
+    /*display:inline-block;*/
+    /*overflow: auto;*/
+    float: left;
+    padding: 1em;
+    height: 20em;
+    width:20em;
+}
+
+.level2 {
+    /*position: relative;*/
+    border-style: solid;
+    border-color: green;
+     background-color: green; 
+    /*display:inline-block;*/
+    /*overflow: auto;*/
+    float: left;
+    padding: 1em;
+    height: 10em;
+    width:10em;
+}
+
+.level3 {
+    /*position: relative;*/
+    border-style: solid;
+    border-color: blue;
+    /* background-color: blue; */
+    /*display:inline-block;*/
+    /*overflow: auto;*/
+    float: left;
+    padding: 1em;
+    height: 5em;
+    width:5em;
+}
+
+.level5 {
+    /*position: relative;*/
+    border-style: solid;
+    border-color: blue;
+    /* background-color: blue; */
+    /*display:inline-block;*/
+    /*overflow: auto;*/
+    float: left;
+    padding: 1em;
+    height: 5em;
+    width:5em;
+}
