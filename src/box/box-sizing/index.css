@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 1em/1.4 Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+.card1 {
+  box-sizing: content-box;
+  border: blue 1em solid;
+  background-color: #fff;
+  width: 10em;
+  height: 10em;
+  background-color: green;
+}
+
+.card2 {
+  box-sizing: border-box;
+  border: green 1em solid;
+  background-color: #fff;
+  width: 10em;
+  height: 10em;
+  background-color: blue;
+}
