@@ -1,0 +1,12 @@
+.block {
+  background-color: aqua;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: blue;
+}
+
+.inner {
+  width: 10px;
+}
