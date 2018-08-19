@@ -1,0 +1,33 @@
+:hover {
+  border-color: red;
+}
+#limited-width {
+  /* width: 100%;
+  max-width: 200px; */
+  margin: 0 auto;
+  font-size: 18px;
+}
+ul,
+ul > li {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  border-width: 2px 0 0 2px;
+}
+ul > li {
+  display: block;
+  text-align: center;
+  flex: 1 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 4px 7px;
+  border-width: 0 2px 2px 0;
+  background-color: rgba(0, 0, 0, 0.03);
+}

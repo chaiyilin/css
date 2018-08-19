@@ -1,0 +1,8 @@
+ul {
+  display: flex;
+}
+
+ul,
+ul > li {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
