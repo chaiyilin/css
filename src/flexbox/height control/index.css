@@ -1,0 +1,13 @@
+#a {
+  display: flex;
+  align-content: flex-start;
+}
+#a > div {
+  background-color: red;
+  padding: 5px;
+  margin: 2px;
+}
+#b {
+  /* height: auto; */
+  align-self: stretch;
+}
