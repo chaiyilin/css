@@ -1,0 +1,47 @@
+div {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px;
+  position: absolute;
+  font-family: Verdana;
+}
+
+.div1, .div2, .div3 {
+  width: 500px;
+  height: 200px;
+}
+
+.div1-1, .div2-1 {
+  width: 200px;
+  height: 150px;
+}
+
+.div1 {
+  left: 10px;
+  top: 10px;
+  background-color: rgba(220, 220, 170, 0.9);
+}
+
+.div1-1 {
+  left: 250px;
+  top: 30px;
+  background-color: rgba(220, 170, 170, 0.9);
+}
+
+.div2 {
+  left: 20px;
+  top: 90px;
+  background-color: rgba(220, 170, 220, 0.9);
+}
+
+.div2-1 {
+  left: 120px;
+  top: 30px;
+  background-color: rgba(170, 220, 170, 0.9);
+}
+
+.div3 {
+  left: 30px;
+  top: 170px;
+  background-color: rgba(170, 220, 220, 0.9);
+}
