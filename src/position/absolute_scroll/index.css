@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: red;
+}
+
+.level1 {
+  padding-left: 100px;
+  height: 200px;
+  background-color: blue;
+  overflow: visible;
+}
+
+/* https://stackoverflow.com/questions/36531708/why-does-position-absolute-make-page-to-overflow/36531756 */
+.level2 {
+  position: absolute;
+  background-color: green;
+  left: -100px;
+  top: auto;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+}
