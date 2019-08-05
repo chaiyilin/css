@@ -1,0 +1,17 @@
+.flex {
+  display: -webkit-flex;
+  display: flex;
+  background-color: blue;
+
+}
+.flex-item1 {
+width:20px;
+}
+.flex-item2 {
+  width:20px;
+  background-color: orange;
+}
+.element{
+height:100%;
+background-color: green;
+}
