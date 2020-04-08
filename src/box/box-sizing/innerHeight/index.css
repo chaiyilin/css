@@ -8,12 +8,12 @@ html {
 }
 
 body {
-  font: 1em/1.4 Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 1em/1.4 Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #fafafa;
 }
 
 .card1 {
-  z-index: auto;
+  position: relative;
   box-sizing: border-box;
   border-top: blue 1em solid;
   border-right: green 1em solid;
@@ -25,13 +25,12 @@ body {
 }
 
 .card2 {
-  position: relative;
-  z-index: -1;
-  top: -1em;
+  position: absolute;
+
   box-sizing: content-box;
   border: red 1em solid;
   background-color: #fff;
   width: 5em;
-  height: 5em;
+  height: 100%;
   background-color: yellow;
 }

@@ -14,19 +14,16 @@ body {
 
 .card1 {
   z-index: auto;
+  box-shadow: 1rem -1rem green, 1rem green, 1rem green, -1rem green;
   box-sizing: border-box;
-  border-top: blue 1em solid;
-  border-right: green 1em solid;
-  border-bottom: red 1em solid;
-  border-right: yellow 1em solid;
+  border: blue 1em solid;
   width: 10em;
   height: 10em;
-  /* background-color: green; */
 }
 
 .card2 {
-  position: relative;
   z-index: -1;
+  position: relative;
   top: -1em;
   box-sizing: content-box;
   border: red 1em solid;
