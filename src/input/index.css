@@ -6,7 +6,7 @@ input:hover{
 border:10px solid red;
 }
 input:focus{
-  //border:10px solid yellow;
+/* border:10px solid yellow; */
 background-color: blue;
 background-clip: content-box;
 }
