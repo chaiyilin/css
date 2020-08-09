@@ -1,34 +1,8 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 
-body {
-  font: 1em/1.4 Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #fafafa;
-}
 
 .card1 {
-  z-index: auto;
-  box-shadow: 1rem -1rem green, 1rem green, 1rem green, -1rem green;
-  box-sizing: border-box;
-  border: blue 1em solid;
-  width: 10em;
-  height: 10em;
+  border: 5px solid;
+  outline: 5px auto -webkit-focus-ring-color !important;
 }
 
-.card2 {
-  z-index: -1;
-  position: relative;
-  top: -1em;
-  box-sizing: content-box;
-  border: red 1em solid;
-  background-color: #fff;
-  width: 5em;
-  height: 5em;
-  background-color: yellow;
-}
+
