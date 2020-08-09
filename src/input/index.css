@@ -1,12 +1,12 @@
 /* https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/#:~:text=%3Ahover%20%2C%20%3Afocus%20%2C%20and%20%3Aactive%20are%20pseudo%2D,button%20or%20an%20input%20field. */
 
-input:focus { outline:none; }
+*:focus { outline:none; }
 
 input:hover{
 border:10px solid red;
 }
 input:focus{
-/* border:10px solid yellow; */
+/* -border:10px solid yellow; */
 background-color: blue;
 background-clip: content-box;
 }
