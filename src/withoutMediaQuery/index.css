@@ -1,0 +1,25 @@
+.card1 {
+  background-color: blue;
+  height: 50px;
+  width: min(50%, 600px);
+}
+
+.card2 {
+  background-color: green;
+  height: 50px;
+  width: max(50%, 600px);
+}
+
+.card3 {
+  background-color: yellow;
+  height: 50px;
+  /* used with CSS Grids */
+  width: minmax(50%, 600px);
+}
+
+.card4 {
+  background-color: pink;
+  height: 50px;
+  /* not working */
+  width: clamp(10%, 200px, 100%);
+}

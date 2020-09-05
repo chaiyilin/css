@@ -1,0 +1,14 @@
+
+
+.sticky {
+  position: sticky;
+}
+.fixed {
+  position: fixed;
+}
+
+.static {
+  position: static;
+  height: 10000px;
+  background-color: green;
+}

@@ -13,3 +13,9 @@ background-clip: content-box;
 input:active{
 box-shadow: 0 0 50px 0 green;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    input:focus{
+     outline-offset:5px !important;
+   }
+ }
