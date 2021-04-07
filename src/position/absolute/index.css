@@ -1,0 +1,19 @@
+.level1 {
+  position: relative;
+  height: 200px;
+  background-color: blue;
+}
+
+.level2a {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.level2b {
+  position: absolute;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+}
